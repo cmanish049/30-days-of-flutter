@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,7 +15,7 @@ class HomePage extends StatelessWidget {
       body: const Center(
         child: Text('Home Page'),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
